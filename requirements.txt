@@ -63,7 +63,6 @@ keras==3.12.0
 kiwisolver==1.4.9
 kornia==0.8.2
 kornia_rs==0.1.10
-lib50==3.1.4
 libclang==18.1.1
 llvmlite==0.46.0
 Markdown==3.10
