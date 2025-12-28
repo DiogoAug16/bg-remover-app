@@ -30,7 +30,7 @@ if uploaded_file is not None:
     # Remove background button
     if st.button('Remove Background'):
         # Initialize the remover with selected options
-        remover = Remover(mode=mode_option, jit=True, device=device_option)
+        remover = Remover(mode=mode_option, jit=False, device=device_option)
         
         # Process the image
         out = remover.process(img, threshold=threshold, type=type_option)
